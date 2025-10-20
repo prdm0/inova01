@@ -1,0 +1,233 @@
+---
+title: "Inteligência Artificial para Automatização de Cálculos no Licenciamento Ambiental"
+subtitle: "Tema da Proposta: Tema 6 (Licenciamento ambiental) do Edital N.º 007/2025, INOVATEC - JP"
+author: "<br>Apresentador: Prof. Dr. Eufrásio de Andrade Lima Neto<br>Coordenador: Prof. Dr. Pedro Rafael D. Marinho<br>Departamento de Estatística - UFPB<br><br>31/10/2025"
+resources:
+  - codigos_html/**
+format:
+  revealjs:
+    theme: [default, style.scss]
+    width: 1920
+    height: 1080
+    logo: "https://www.ufpb.br/de/contents/imagens/logode.png"
+    footer: '<a href="https://www.ufpb.br/de">Departamento de Estatística da UFPB</a>'
+    transition: fade
+    background-transition: fade
+    preview-links: true
+    slide-number: true
+    chalkboard: true
+    scrollable: true
+    controls: true
+    incremental: false
+    code-tools: true
+    auto-stretch: true
+    code-link: false
+    html-math-method: katex
+    auto-animate: false
+    code-line-numbers: true
+    highlight-style: printing
+  pdf:
+    include-in-header:
+      - text: |
+            \usepackage{amsfonts}
+            \usepackage{amsmath}
+revealjs-plugins:
+  - pointer
+  - attribution
+  - roughnotation
+filters:
+   - roughnotation
+execute:
+  refresh: true
+  warning: false
+  error: false
+  eval: true
+  echo: true
+editor:
+  markdown:
+    wrap: 72
+lang: pt-BR
+---
+
+<!-- ```{r} -->
+
+<!-- #| echo: false -->
+
+<!-- #| warning: false -->
+
+<!-- #| eval: true -->
+
+<!-- if(fs::dir_exists("index_files/")) -->
+
+<!--   fs::dir_delete("index_files/") -->
+
+<!-- ``` -->
+
+::: r-fit-text
+Parceria
+
+<br>
+
+[Inteligência Artificial + Licenciamento Ambiental]{.flow}
+
+<br>
+
+Inovatec + UFPB
+
+<br>
+
+🌍🌊💧🌲🪵🌱
+:::
+
+#  {.title}
+
+::: r-fit-text
+[Edital N.º 007/2025, INOVATEC - JP]{.flow}
+:::
+
+# Conhecendo o Departamento de Estatística da UFPB {.title}
+
+## Nosso segundo lar {.r-fit-text background-color="black" background-image="https://raw.githubusercontent.com/prdm0/imagens/main/foto_aerea_ufpb.jpeg" background-size="1600px" background-repeat="repeat" background-opacity="0.35"}
+
+```{r width = 100, height = 100, echo = FALSE, fig.cap="Departamento de Estatística da UFPB."}
+library(leaflet)
+leaflet() |>
+  addMarkers(-34.846199, -7.140400) |>
+  leaflet::addTiles() |>
+  setView(
+    -34.846199,
+    -7.140400,
+    zoom = 37,
+    options = popupOptions(
+      minWidth = 1600,
+      maxWidth = 1500
+    )
+  )
+```
+
+
+## Equipe
+<iframe src="codigos_html/equipe.html" width="100%" height="800px"></iframe>
+
+## 🌍 Contexto
+
+<br>
+
+:::: {.columns}
+::: {.column width = "50%"}
+
+- 🌱 **Demanda crescente**: aumento expressivo de solicitações de licenciamento em João Pessoa
+- ⚖️ **Exigência legal**: cumprimento rigoroso da **LUOS (Lei 166/2024)** e da **NA-101/Sudema**
+- 🔎 **Complexidade**: múltiplas etapas técnicas e jurídicas envolvidas
+- 💡 **Oportunidade**: uso de tecnologia para tornar o processo **mais ágil, preciso e transparente**
+
+<br>
+
+<span style="font-size:0.9em; color:gray;">
+📜 *LUOS define zoneamento urbano; NA-101 detalha parâmetros técnicos para licenciamento ambiental.*
+</span>
+
+:::
+
+:::{.column width = "50%"}
+![](imgs/luos.png){width=75% fig-align="center"}
+:::
+::::
+
+---
+
+## ⚠️ Problema
+
+<br>
+
+:::: {.columns}
+::: {.column width="55%"}
+- 📑 **Burocracia** → excesso de papéis e etapas manuais
+- 🕒 **Demora** → processos que poderiam durar dias levam semanas ou meses
+- 🧮 **Risco de erros** → cálculos manuais, suscetíveis a inconsistências
+- ⚖️ **Subjetividade** → interpretações diferentes da lei entre técnicos
+- 🔒 **Falta de transparência** → gera insegurança para órgãos e empreendedores
+- 🌍 **Impacto direto**: atraso no desenvolvimento urbano e entraves à gestão ambiental
+:::
+
+::: {.column width="45%"}
+![](imgs/problema.png){width=90% fig-align="center"}
+<span style="font-size:0.8em; color:gray;"></span>
+:::
+::::
+
+## 🎯 Objetivo Geral
+
+<br>
+
+- Desenvolver e implementar um **protótipo de sistema de IA** para automatizar:
+  - 📑 **Cálculos técnicos** do licenciamento
+  - ⚖️ **Análise de conformidade** com a LUOS e a NA-101
+- Garantir processos mais:
+  - 🚀 Ágeis
+  - 🔒 Confiáveis
+  - 🌱 Sustentáveis
+
+## 📝 Objetivos Específicos
+
+<br>
+
+- 📖 Estruturar regras da LUOS e NA-101 em **bases de conhecimento computacionais**
+- 🤖 Utilizar ferramentas de IA para treinar sobre os textos legais
+- 🔌 Criar uma **API** para integração com outros sistemas
+- 💻 Desenvolver um protótipo de **aplicação web interativa (Shiny)**
+- ✅ Validar a área técnica da SEMAM
+- 📢 Disseminar resultados em artigos, workshops e repositório aberto
+
+<br>
+
+![](gifs/ok-2.gif)
+
+# Como funcionará o protótipo? {.title background-image="imgs/Clouds.jpg"}
+
+## 🖥️🌐
+
+<iframe src="codigos_html/animacao_sistema.html" width="100%" height="800px"></iframe>
+
+Clique 🖱️[**AQUI**](codigos_html/animacao_sistema.html)
+
+## 📅 Cronograma de Atividades (12 meses)
+
+<br>
+
+**Início das atividades**: 27 de agosto de 2025.
+
+<br>
+
+| Atividade                                      | 1-2 | 3-4 | 5-6 | 7-8 | 9-10 | 11-12 |
+|------------------------------------------------|:---:|:---:|:---:|:---:|:----:|:-----:|
+| Leitura técnica da LUOS e NA-101               | ✅  | ✅  |     |     |      |       |
+| Processamento dos textos das resoluções (LUOS/NA-101) | ✅  | ✅  |     |     |      |       |
+| Pré-processamento de dados                     |     | ✅  | ✅  |     |      |       |
+| Integração de LLMs                             |     |     | ✅  | ✅  |      |       |
+| Criação da API + protótipo da aplicação Web    |     |     |     | ✅  | ✅   |       |
+| Testes do aplicativo (integração e usabilidade)|     |     |     |     | ✅   | ✅    |
+| Validação com dados reais da Sudema            |     |     |     |     | ✅   | ✅    |
+| Relatórios automáticos + documentação técnica  |     |     |     |     |     | ✅    |
+| Divulgação científica e workshops              |     |     |     |     |     | ✅    |
+
+<span style="font-size:0.8em; color:gray;">✅ = meses de execução da atividade</span>
+
+## 🚀 Resultados Esperados
+
+<br>
+
+- ⏳ **Redução de até 70%** no tempo de análise de processos
+- 📑 **Padronização** das decisões → menos erros e retrabalho
+- 🔍 **Transparência**: relatórios automáticos e auditáveis
+- ⚖️ **Segurança jurídica** para empreendedores e órgãos
+- 🌍 **Gestão ambiental proativa** baseada em dados
+
+<br>
+
+![](gifs/bom.gif)
+
+#  {.title background-image="gifs/aplausos.gif" background-size="100% 100%"}
+
+
+# Obrigado! 🙏
