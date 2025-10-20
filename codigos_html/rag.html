@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Licenciamento (Demo)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .custom-checkbox:checked {
+            background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800 flex items-center justify-center min-h-screen p-4">
+
+    <div class="w-full max-w-2xl bg-gray-50 rounded-2xl shadow-2xl border border-gray-200 overflow-hidden">
+        <!-- Cabeçalho -->
+        <div class="p-6 border-b border-gray-200 text-center">
+            <h1 class="text-xl font-bold text-gray-900">Analisador Simplificado de Licenciamento</h1>
+            <p class="text-sm text-gray-500 mt-1">Simulação baseada nas regras da LUOS & NA-101</p>
+        </div>
+
+        <!-- Formulário de Input -->
+        <div class="p-6">
+            <h2 class="font-semibold text-gray-700 mb-4">Marque as características do empreendimento:</h2>
+            <div class="space-y-4">
+                <label for="preservation-zone" class="flex items-center p-4 bg-white rounded-lg cursor-pointer hover:bg-gray-100 transition-colors border border-gray-200">
+                    <input type="checkbox" id="preservation-zone" class="custom-checkbox h-5 w-5 rounded border-gray-300 bg-gray-200 text-blue-600 focus:ring-blue-500 shrink-0">
+                    <span class="ml-3 text-sm text-gray-600">Localizado em Zona de Preservação Ambiental (ZPA)?</span>
+                </label>
+                <label for="high-impact" class="flex items-center p-4 bg-white rounded-lg cursor-pointer hover:bg-gray-100 transition-colors border border-gray-200">
+                    <input type="checkbox" id="high-impact" class="custom-checkbox h-5 w-5 rounded border-gray-300 bg-gray-200 text-blue-600 focus:ring-blue-500 shrink-0">
+                    <span class="ml-3 text-sm text-gray-600">Classificado como atividade de Alto Impacto Ambiental?</span>
+                </label>
+                <label for="vegetation-removal" class="flex items-center p-4 bg-white rounded-lg cursor-pointer hover:bg-gray-100 transition-colors border border-gray-200">
+                    <input type="checkbox" id="vegetation-removal" class="custom-checkbox h-5 w-5 rounded border-gray-300 bg-gray-200 text-blue-600 focus:ring-blue-500 shrink-0">
+                    <span class="ml-3 text-sm text-gray-600">Requer supressão de vegetação nativa?</span>
+                </label>
+                 <label for="aquifer-recharge" class="flex items-center p-4 bg-white rounded-lg cursor-pointer hover:bg-gray-100 transition-colors border border-gray-200">
+                    <input type="checkbox" id="aquifer-recharge" class="custom-checkbox h-5 w-5 rounded border-gray-300 bg-gray-200 text-blue-600 focus:ring-blue-500 shrink-0">
+                    <span class="ml-3 text-sm text-gray-600">Localizado em área de recarga de aquífero?</span>
+                </label>
+            </div>
+            <div class="mt-6">
+                <button id="analyze-button" class="w-full bg-blue-600 hover:bg-blue-500 rounded-lg py-3 text-white font-semibold transition-all active:scale-[0.98] flex items-center justify-center">
+                    <span id="button-text">Gerar Análise Preliminar</span>
+                    <div id="loading-spinner" class="hidden w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                </button>
+            </div>
+        </div>
+
+        <!-- Área de Resultado -->
+        <div id="result-area" class="p-6 border-t border-gray-200 bg-gray-100 hidden">
+             <h2 class="font-semibold text-gray-700 mb-3">Parecer Preliminar da IA:</h2>
+             <div id="result-content" class="text-sm text-gray-600 space-y-3">
+                <!-- O resultado da análise será inserido aqui -->
+             </div>
+        </div>
+    </div>
+
+    <script>
+        const analyzeButton = document.getElementById('analyze-button');
+        const buttonText = document.getElementById('button-text');
+        const loadingSpinner = document.getElementById('loading-spinner');
+        const resultArea = document.getElementById('result-area');
+        const resultContent = document.getElementById('result-content');
+
+        // Lógica de interpretação (Simulação do motor de regras da IA)
+        analyzeButton.addEventListener('click', () => {
+            // Simula o processamento
+            buttonText.classList.add('hidden');
+            loadingSpinner.classList.remove('hidden');
+            analyzeButton.disabled = true;
+            resultArea.classList.add('hidden');
+
+            setTimeout(() => {
+                const inPreservationZone = document.getElementById('preservation-zone').checked;
+                const isHighImpact = document.getElementById('high-impact').checked;
+                const needsVegetationRemoval = document.getElementById('vegetation-removal').checked;
+                const isAquiferRecharge = document.getElementById('aquifer-recharge').checked;
+
+                let interpretation = [];
+
+                if (inPreservationZone) {
+                    interpretation.push("<strong>⚠️ Atenção (LUOS):</strong> O empreendimento em Zona de Preservação Ambiental (ZPA) possui restrições severas. É crucial consultar os artigos específicos da LUOS para verificar os parâmetros de ocupação e atividades permitidas, que são extremamente limitados.");
+                }
+
+                if (isHighImpact) {
+                    interpretation.push("<strong>📄 Exigência (NA-101):</strong> Por ser classificado como atividade de alto impacto, a Norma Administrativa 101/Sudema exige a elaboração de um Estudo de Impacto Ambiental (EIA) e seu respectivo Relatório de Impacto Ambiental (RIMA) como pré-requisito para a licença.");
+                }
+
+                if (needsVegetationRemoval) {
+                    interpretation.push("<strong>🌳 Compensação Obrigatória:</strong> A supressão de vegetação nativa requer uma autorização específica da Sudema. Além disso, é obrigatória a apresentação e execução de um Plano de Recuperação de Área Degradada (PRAD) como medida compensatória.");
+                }
+
+                if (isAquiferRecharge) {
+                    interpretation.push("<strong>💧 Restrição Hídrica:</strong> Estando em área de recarga de aquífero, a LUOS e a NA-101 impõem restrições rigorosas quanto à taxa de permeabilidade do solo e ao manejo de efluentes para proteger os recursos hídricos subterrâneos.");
+                }
+
+                if (interpretation.length === 0) {
+                    interpretation.push("<strong>✅ Análise Inicial Favorável:</strong> Com base nas informações fornecidas, o empreendimento aparenta ser de baixo impacto e sem restrições imediatas. Recomenda-se prosseguir com a solicitação de Licença Simplificada (LS). Contudo, esta é uma análise preliminar e não substitui o parecer técnico completo.");
+                }
+
+                // Exibir resultado
+                resultContent.innerHTML = interpretation.join('<br><br>');
+                resultArea.classList.remove('hidden');
+
+                // Resetar botão
+                buttonText.classList.remove('hidden');
+                loadingSpinner.classList.add('hidden');
+                analyzeButton.disabled = false;
+
+                // Rolar para o resultado
+                resultArea.scrollIntoView({ behavior: 'smooth', block: 'end' });
+
+            }, 1500); // Atraso para simular análise
+        });
+    </script>
+</body>
+</html>
+

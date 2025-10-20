@@ -223,6 +223,13 @@ $$
 
 Clique 🖱️[**AQUI**](codigos_html/animacao_sistema.html)
 
+## 🖥️🌐
+
+<iframe src="codigos_html/rag.html" width="100%" height="800px"></iframe>
+
+Clique 🖱️[**AQUI**](codigos_html/rag.html)
+
+
 ## 📅 Cronograma de Atividades (12 meses)
 
 <br>
