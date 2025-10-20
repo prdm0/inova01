@@ -203,10 +203,6 @@ Desafios do Licenciamento Ambiental:
 - ✅ Validar a área técnica da SEMAM
 - 📢 Disseminar resultados em artigos, workshops e repositório aberto
 
-<br>
-
-![](gifs/ok-2.gif)
-
 # Como funcionará o protótipo? {.title background-image="imgs/Clouds.jpg"}
 
 ## 🖥️🌐
@@ -246,10 +242,6 @@ Clique 🖱️[**AQUI**](codigos_html/animacao_sistema.html)
 - 🔍 **Transparência**: relatórios automáticos e auditáveis
 - ⚖️ **Segurança jurídica** para empreendedores e órgãos
 - 🌍 **Gestão ambiental proativa** baseada em dados
-
-<br>
-
-![](gifs/bom.gif)
 
 #  {.title background-image="gifs/aplausos.gif" background-size="100% 100%"}
 
