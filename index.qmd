@@ -236,12 +236,21 @@ Clique 🖱️[**AQUI**](codigos_html/animacao_sistema.html)
 ## 🚀 Resultados Esperados
 
 <br>
+<br>
 
+:::: {.columns}
+::: {.column width="50%"}
 - ⏳ **Redução de até 70%** no tempo de análise de processos
 - 📑 **Padronização** das decisões → menos erros e retrabalho
 - 🔍 **Transparência**: relatórios automáticos e auditáveis
 - ⚖️ **Segurança jurídica** para empreendedores e órgãos
 - 🌍 **Gestão ambiental proativa** baseada em dados
+:::
+::: {.column width="50%"}
+![](imgs/licenciamento_agil.png){width=85% fig-align="center"}
+:::
+::::
+
 
 #  {.title background-image="gifs/aplausos.gif" background-size="100% 100%"}
 
