@@ -39,7 +39,7 @@
     "href": "index.html#objetivos-específicos",
     "title": "Inteligência Artificial para Automatização de Cálculos no Licenciamento Ambiental",
     "section": "📝 Objetivos Específicos",
-    "text": "📝 Objetivos Específicos\n\n\n📖 Estruturar regras da LUOS e NA-101 em bases de conhecimento computacionais\n🤖 Utilizar ferramentas de IA para treinar sobre os textos legais. Por exemplo, usar RAG (Retrieval-Augmented Generation - RAG).\n🔌 Criar uma API para integração com outros sistemas.\n💻 Desenvolver um protótipo de aplicação web interativa (Shiny)\n✅ Validar a área técnica da SEMAM.\n📢 Disseminar resultados em artigos, workshops e repositório aberto."
+    "text": "📝 Objetivos Específicos\n\n\n📖 Estruturar regras da LUOS e NA-101 em bases de conhecimento computacionais\n🤖 Utilizar ferramentas de IA para treinar sobre os textos legais. Por exemplo, usar RAG (Retrieval-Augmented Generation - RAG). Pode ser feito usando um modelo de LLM já treinado como motor de raciocínio + os trechos recuperados dos documentos.\n🔌 Criar uma API para integração com outros sistemas.\n💻 Desenvolver um protótipo de aplicação web interativa (Shiny).\n✅ Validar a área técnica da SEMAM.\n📢 Disseminar resultados em artigos, workshops e repositório aberto.\n\n\n\\mathrm{RAG} =\n\\underbrace{\\text{LLM pré-treinado}}_{\\text{modelo de linguagem}}\n\\;+\\;\n\\underbrace{\\text{base vetorial dos textos legais}}_{\\text{documentos que regulamentam o problema}}"
   },
   {
     "objectID": "index.html#section-2",

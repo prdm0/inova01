@@ -202,11 +202,18 @@ Desafios do Licenciamento Ambiental:
 <br>
 
 - 📖 Estruturar regras da LUOS e NA-101 em **bases de conhecimento computacionais**
-- 🤖 Utilizar ferramentas de IA para treinar sobre os textos legais. Por exemplo, usar RAG (*Retrieval-Augmented Generation* - RAG).
+- 🤖 Utilizar ferramentas de IA para treinar sobre os textos legais. Por exemplo, usar RAG (*Retrieval-Augmented Generation* - RAG). Pode ser feito usando um modelo de LLM já treinado como motor de raciocínio + os trechos recuperados dos documentos.
 - 🔌 Criar uma **API** para integração com outros sistemas.
-- 💻 Desenvolver um protótipo de **aplicação web interativa (Shiny)**
+- 💻 Desenvolver um protótipo de **aplicação web interativa (Shiny)**.
 - ✅ Validar a área técnica da SEMAM.
 - 📢 Disseminar resultados em artigos, workshops e repositório aberto.
+
+$$
+\mathrm{RAG} =
+\underbrace{\text{LLM pré-treinado}}_{\text{modelo de linguagem}}
+\;+\;
+\underbrace{\text{base vetorial dos textos legais}}_{\text{documentos que regulamentam o problema}}
+$$
 
 # Como funcionará o protótipo? {.title background-image="imgs/Clouds.jpg"}
 
