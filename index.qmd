@@ -85,9 +85,9 @@ Inovatec + UFPB
 [Edital N.º 007/2025, INOVATEC - JP]{.flow}
 :::
 
-# Conhecendo o Departamento de Estatística da UFPB {.title}
+<!-- # Conhecendo o Departamento de Estatística da UFPB {.title} -->
 
-## Nosso segundo lar {.r-fit-text background-color="black" background-image="https://raw.githubusercontent.com/prdm0/imagens/main/foto_aerea_ufpb.jpeg" background-size="1600px" background-repeat="repeat" background-opacity="0.35"}
+<!-- ## Nosso segundo lar {.r-fit-text background-color="black" background-image="https://raw.githubusercontent.com/prdm0/imagens/main/foto_aerea_ufpb.jpeg" background-size="1600px" background-repeat="repeat" background-opacity="0.35"}
 
 ```{r width = 100, height = 100, echo = FALSE, fig.cap="Departamento de Estatística da UFPB."}
 library(leaflet)
@@ -103,7 +103,7 @@ leaflet() |>
       maxWidth = 1500
     )
   )
-```
+``` -->
 
 
 ## Equipe
@@ -155,6 +155,27 @@ leaflet() |>
 <span style="font-size:0.8em; color:gray;"></span>
 :::
 ::::
+
+## O tema já é debatido em outros estados brasileiros
+
+<br>
+<br>
+
+:::: {.columns}
+::: {.column width="55%"}
++ **Minas-Gerais**: [https://meioambiente.mg.gov.br/w/minas-gerais-adota-inteligencia-artificial-para-agilizar-e-modernizar-o-licenciamento-ambiental](https://meioambiente.mg.gov.br/w/minas-gerais-adota-inteligencia-artificial-para-agilizar-e-modernizar-o-licenciamento-ambiental)
+
++ **Santa-Catarina**: [https://portal.crea-sc.org.br/inteligencia-artificial-no-licenciamento-ambiental-seminario-da-acesa-aconteceu-na-sede-do-crea-sc/](https://portal.crea-sc.org.br/inteligencia-artificial-no-licenciamento-ambiental-seminario-da-acesa-aconteceu-na-sede-do-crea-sc/).
+
++ **Amazonas**: [https://www.ipaam.am.gov.br/tecnologia-facilita-atividades-do-ipaam-e-moderniza-gestao-ambiental-no-amazonas/](https://www.ipaam.am.gov.br/tecnologia-facilita-atividades-do-ipaam-e-moderniza-gestao-ambiental-no-amazonas/).
+
++ **Goiás**: [https://portal.al.go.leg.br/noticias-dos-gabinetes/153454/deputado-jamil-calife-sugere-uso-de-inteligencia-artificial-para-agilizar-licenciamento-ambiental-em-goias](https://portal.al.go.leg.br/noticias-dos-gabinetes/153454/deputado-jamil-calife-sugere-uso-de-inteligencia-artificial-para-agilizar-licenciamento-ambiental-em-goias).
+:::
+::: {.column width="45%"}
+![](imgs/licenciamento_ambiental.png){width=85% fig-align="center"}
+:::
+::::
+
 
 ## 🎯 Objetivo Geral
 

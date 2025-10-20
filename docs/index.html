@@ -128,16 +128,6 @@
       margin-right: 0; 
     }
   </style>
-  <link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
-  <script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
-  <script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
-  <link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
-  <script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
-  <script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
-  <link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
-  <script src="site_libs/leaflet-binding-2.2.3/leaflet.js"></script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -175,27 +165,29 @@
 <p>🌍🌊💧🌲🪵🌱</p>
 </div>
 </section>
+<section>
 <section id="section" class="title-slide slide level1 title center">
 <h1></h1>
 <div class="r-fit-text">
 <p><span class="flow">Edital N.º 007/2025, INOVATEC - JP</span></p>
 </div>
-</section>
+<!-- # Conhecendo o Departamento de Estatística da UFPB {.title} -->
+<!-- ## Nosso segundo lar {.r-fit-text background-color="black" background-image="https://raw.githubusercontent.com/prdm0/imagens/main/foto_aerea_ufpb.jpeg" background-size="1600px" background-repeat="repeat" background-opacity="0.35"}
 
-<section>
-<section id="conhecendo-o-departamento-de-estatística-da-ufpb" class="title-slide slide level1 title center">
-<h1>Conhecendo o Departamento de Estatística da UFPB</h1>
-
-</section>
-<section id="nosso-segundo-lar" class="slide level2" data-background-color="black" data-background-image="https://raw.githubusercontent.com/prdm0/imagens/main/foto_aerea_ufpb.jpeg" data-background-size="1600px" data-background-repeat="repeat" data-background-opacity="0.35">
-<h2>Nosso segundo lar</h2>
-<div class="cell" width="100" height="100">
-<div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-832e35685e94378d7af1" style="width:960px;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-832e35685e94378d7af1">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addMarkers","args":[-7.1404,-34.846199,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]}],"limits":{"lat":[-7.1404,-7.1404],"lng":[-34.846199,-34.846199]},"setView":[[-7.1404,-34.846199],37,{"maxWidth":1500,"minWidth":1600,"autoPan":true,"keepInView":false,"closeButton":true,"className":""}]},"evals":[],"jsHooks":[]}</script>
-<p>Departamento de Estatística da UFPB.</p>
-</div>
-</div>
+library(leaflet)
+leaflet() |>
+  addMarkers(-34.846199, -7.140400) |>
+  leaflet::addTiles() |>
+  setView(
+    -34.846199,
+    -7.140400,
+    zoom = 37,
+    options = popupOptions(
+      minWidth = 1600,
+      maxWidth = 1500
+    )
+  )
+``` -->
 </section>
 <section id="equipe" class="slide level2">
 <h2>Equipe</h2>
@@ -238,6 +230,25 @@
 </ul>
 </div><div class="column" style="width:45%;">
 <p><img data-src="imgs/problema.png" class="quarto-figure quarto-figure-center" style="width:90.0%"> <span style="font-size:0.8em; color:gray;"></span></p>
+</div></div>
+</section>
+<section id="o-tema-já-é-debatido-em-outros-estados-brasileiros" class="slide level2">
+<h2>O tema já é debatido em outros estados brasileiros</h2>
+<p><br> <br></p>
+<div class="columns">
+<div class="column" style="width:55%;">
+<ul>
+<li><p><strong>Minas-Gerais</strong>: <a href="https://meioambiente.mg.gov.br/w/minas-gerais-adota-inteligencia-artificial-para-agilizar-e-modernizar-o-licenciamento-ambiental">https://meioambiente.mg.gov.br/w/minas-gerais-adota-inteligencia-artificial-para-agilizar-e-modernizar-o-licenciamento-ambiental</a></p></li>
+<li><p><strong>Santa-Catarina</strong>: <a href="https://portal.crea-sc.org.br/inteligencia-artificial-no-licenciamento-ambiental-seminario-da-acesa-aconteceu-na-sede-do-crea-sc/">https://portal.crea-sc.org.br/inteligencia-artificial-no-licenciamento-ambiental-seminario-da-acesa-aconteceu-na-sede-do-crea-sc/</a>.</p></li>
+<li><p><strong>Amazonas</strong>: <a href="https://www.ipaam.am.gov.br/tecnologia-facilita-atividades-do-ipaam-e-moderniza-gestao-ambiental-no-amazonas/">https://www.ipaam.am.gov.br/tecnologia-facilita-atividades-do-ipaam-e-moderniza-gestao-ambiental-no-amazonas/</a>.</p></li>
+<li><p><strong>Goiás</strong>: <a href="https://portal.al.go.leg.br/noticias-dos-gabinetes/153454/deputado-jamil-calife-sugere-uso-de-inteligencia-artificial-para-agilizar-licenciamento-ambiental-em-goias">https://portal.al.go.leg.br/noticias-dos-gabinetes/153454/deputado-jamil-calife-sugere-uso-de-inteligencia-artificial-para-agilizar-licenciamento-ambiental-em-goias</a>.</p></li>
+</ul>
+</div><div class="column" style="width:45%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="imgs/licenciamento_ambiental.png" class="quarto-figure quarto-figure-center" style="width:85.0%"></p>
+</figure>
+</div>
 </div></div>
 </section>
 <section id="objetivo-geral" class="slide level2">
@@ -619,44 +630,6 @@
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
