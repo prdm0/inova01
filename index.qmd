@@ -116,10 +116,10 @@ leaflet() |>
 :::: {.columns}
 ::: {.column width = "50%"}
 
-- 🌱 **Demanda crescente**: aumento expressivo de solicitações de licenciamento em João Pessoa
-- ⚖️ **Exigência legal**: cumprimento rigoroso da **LUOS (Lei 166/2024)** e da **NA-101/Sudema**
-- 🔎 **Complexidade**: múltiplas etapas técnicas e jurídicas envolvidas
-- 💡 **Oportunidade**: uso de tecnologia para tornar o processo **mais ágil, preciso e transparente**
+- 🌱 **Demanda crescente**: aumento expressivo de solicitações de licenciamento em João Pessoa.
+- ⚖️ **Exigência legal**: cumprimento rigoroso da **LUOS (Lei 166/2024)** e da **NA-101/Sudema**.
+- 🔎 **Complexidade**: múltiplas etapas técnicas e jurídicas envolvidas.
+- 💡 **Oportunidade**: uso de tecnologia para tornar o processo **mais ágil, preciso e transparente**.
 
 <br>
 
@@ -142,12 +142,12 @@ leaflet() |>
 
 :::: {.columns}
 ::: {.column width="55%"}
-- 📑 **Burocracia** → excesso de papéis e etapas manuais
-- 🕒 **Demora** → processos que poderiam durar dias levam semanas ou meses
-- 🧮 **Risco de erros** → cálculos manuais, suscetíveis a inconsistências
-- ⚖️ **Subjetividade** → interpretações diferentes da lei entre técnicos
-- 🔒 **Falta de transparência** → gera insegurança para órgãos e empreendedores
-- 🌍 **Impacto direto**: atraso no desenvolvimento urbano e entraves à gestão ambiental
+- 📑 **Burocracia** → excesso de papéis e etapas manuais.
+- 🕒 **Demora** → processos que poderiam durar dias levam semanas ou meses.
+- 🧮 **Risco de erros** → cálculos manuais, suscetíveis a inconsistências.
+- ⚖️ **Subjetividade** → interpretações diferentes da lei entre técnicos.
+- 🔒 **Falta de transparência** → gera insegurança para órgãos e empreendedores.
+- 🌍 **Impacto direto**: atraso no desenvolvimento urbano e entraves à gestão ambiental.
 :::
 
 ::: {.column width="45%"}
