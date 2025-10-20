@@ -79,6 +79,8 @@ Inovatec + UFPB
 🌍🌊💧🌲🪵🌱
 :::
 
+#  {.title background-image="imgs/inovatec_ufpb.png" background-size="100% 100%"}
+
 #  {.title}
 
 ::: r-fit-text
@@ -107,6 +109,8 @@ leaflet() |>
 
 
 ## Equipe
+Equipe multidisciplinar com experiência em projetos em diversos projetos de pesquisa.
+
 <iframe src="codigos_html/equipe.html" width="100%" height="800px"></iframe>
 
 ## 🌍 Contexto
@@ -187,7 +191,8 @@ Desafios do Licenciamento Ambiental:
 - Desenvolver e implementar um **protótipo de sistema de IA** para automatizar:
   - 📑 **Cálculos técnicos** do licenciamento
   - ⚖️ **Análise de conformidade** com a LUOS e a NA-101
-- Garantir processos mais:
+
+- Garantir processos que são:
   - 🚀 Ágeis
   - 🔒 Confiáveis
   - 🌱 Sustentáveis
@@ -250,7 +255,6 @@ Clique 🖱️[**AQUI**](codigos_html/animacao_sistema.html)
 ![](imgs/licenciamento_agil.png){width=85% fig-align="center"}
 :::
 ::::
-
 
 #  {.title background-image="gifs/aplausos.gif" background-size="100% 100%"}
 
