@@ -202,11 +202,11 @@ Desafios do Licenciamento Ambiental:
 <br>
 
 - 📖 Estruturar regras da LUOS e NA-101 em **bases de conhecimento computacionais**
-- 🤖 Utilizar ferramentas de IA para treinar sobre os textos legais
-- 🔌 Criar uma **API** para integração com outros sistemas
+- 🤖 Utilizar ferramentas de IA para treinar sobre os textos legais. Por exemplo, usar RAG (*Retrieval-Augmented Generation* - RAG).
+- 🔌 Criar uma **API** para integração com outros sistemas.
 - 💻 Desenvolver um protótipo de **aplicação web interativa (Shiny)**
-- ✅ Validar a área técnica da SEMAM
-- 📢 Disseminar resultados em artigos, workshops e repositório aberto
+- ✅ Validar a área técnica da SEMAM.
+- 📢 Disseminar resultados em artigos, workshops e repositório aberto.
 
 # Como funcionará o protótipo? {.title background-image="imgs/Clouds.jpg"}
 
