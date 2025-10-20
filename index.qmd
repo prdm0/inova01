@@ -151,8 +151,11 @@ leaflet() |>
 :::
 
 ::: {.column width="45%"}
-![](imgs/problema.png){width=90% fig-align="center"}
+![](imgs/licenciamento_dilema.png){width=90% fig-align="center"}
 <span style="font-size:0.8em; color:gray;"></span>
+Desafios do Licenciamento Ambiental:
+📑 Burocracia • 🕒 Demora • 🧮 Risco de erros
+⚖️ Subjetividade • 🔒 Falta de transparência • 🌍 Impacto no desenvolvimento.
 :::
 ::::
 
