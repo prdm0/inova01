@@ -194,7 +194,7 @@ Desafios do Licenciamento Ambiental:
 
 - Garantir processos que são:
   - 🚀 Ágeis
-  - 🔒 Confiáveis
+  - 🔒 Transparentes e Confiáveis
   - 🌱 Sustentáveis
 
 ## 📝 Objetivos Específicos
@@ -269,6 +269,25 @@ Clique 🖱️[**AQUI**](codigos_html/rag.html)
 ![](imgs/licenciamento_agil.png){width=85% fig-align="center"}
 :::
 ::::
+
+## Ações realizadas 🚀
+
+<br>
+
+**Início das atividades:** 27 de agosto de 2025 (assinatura do termo de outorga) 📝
+
+<br>
+
+**De lá pra cá (≈1 mês) tivemos:**
+
++ 🧾 **Reunião da equipe** — análise das legislações vigentes (LUOS, NA-101).
++ 🧩 **Reunião da equipe** — estruturação do protótipo baseada nos modelos de formulários existentes.
++ 🎤 **Participação de membros da equipe em evento da área**:
+  + **[NOME DO EVENTO]**:
+  + **[DATA]**:
+  + **Tema:** *[TEMA DA PALESTRA]*. *(preencher detalhes do evento)*:
++ 🤝 **Reunião institucional** — encontro com o Secretário da SEMAM e equipe técnica para alinhamento e próximos passos.
+
 
 #  {.title background-image="gifs/aplausos.gif" background-size="100% 100%"}
 
