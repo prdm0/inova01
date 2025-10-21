@@ -280,8 +280,8 @@ Clique 🖱️[**AQUI**](codigos_html/rag.html)
 
 **De lá pra cá (≈1 mês) tivemos:**
 
-+ 🧾 **Reunião da equipe** — análise das legislações vigentes (LUOS, NA-101).
-+ 🧩 **Reunião da equipe** — estruturação do protótipo baseada nos modelos de formulários existentes.
++ 🧾 **Reunião da equipe**: análise das legislações vigentes (LUOS, NA-101).
++ 🧩 **Reunião da equipe**: estruturação do protótipo baseada nos modelos de formulários existentes.
 + 🎤 **Participação de membro da equipe em organizaçãode evento em área de interesse**:
   + **Nome do evento**: Seminário Ambiental de Saneamento Ambiental da Paraíba.
   + **Data**: 20 e 21 de outubro de 2025.
