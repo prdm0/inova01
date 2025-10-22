@@ -72,7 +72,7 @@ Inovatec + UFPB
 
 <br>
 
-[Inteligência Artificial + Licenciamento Ambiental]{.flow}
+[Licenciamento Ambiental + Inteligência Artificial]{.flow}
 
 
 <br>
