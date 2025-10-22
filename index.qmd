@@ -249,7 +249,7 @@ Clique 🖱️[**AQUI**](codigos_html/rag.html)
 | Integração de LLMs                             |     |     | ✅  | ✅  |      |       |
 | Criação da API + protótipo da aplicação Web    |     |     |     | ✅  | ✅   |       |
 | Testes do aplicativo (integração e usabilidade)|     |     |     |     | ✅   | ✅    |
-| Validação com dados reais da SEMAM            |     |     |     |     | ✅   | ✅    |
+| Validação com dados reais            |     |     |     |     | ✅   | ✅    |
 | Relatórios automáticos + documentação técnica  |     |     |     |     |     | ✅    |
 | Divulgação científica e workshops              |     |     |     |     |     | ✅    |
 
