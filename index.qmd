@@ -68,11 +68,12 @@ Parceria
 
 <br>
 
-[Inteligência Artificial + Licenciamento Ambiental]{.flow}
+Inovatec + UFPB
 
 <br>
 
-Inovatec + UFPB
+[Inteligência Artificial + Licenciamento Ambiental]{.flow}
+
 
 <br>
 
@@ -192,6 +193,8 @@ Desafios do Licenciamento Ambiental:
   - 📑 **Cálculos técnicos** do licenciamento
   - ⚖️ **Análise de conformidade** com a LUOS e a NA-101
 
+<br>
+
 - Garantir processos que são:
   - 🚀 Ágeis
   - 🔒 Transparentes e Confiáveis
@@ -205,7 +208,7 @@ Desafios do Licenciamento Ambiental:
 - 🤖 Utilizar ferramentas de IA para treinar sobre os textos legais. Por exemplo, usar RAG (*Retrieval-Augmented Generation* - RAG). Pode ser feito usando um modelo de LLM já treinado como motor de raciocínio + os trechos recuperados dos documentos.
 - 🔌 Criar uma **API** para integração com outros sistemas.
 - 💻 Desenvolver um protótipo de **aplicação web interativa (Shiny)**.
-- ✅ Validar a área técnica da SEMAM.
+- ✅ Validar a área técnica.
 - 📢 Disseminar resultados em artigos, workshops e repositório aberto.
 
 $$
@@ -281,7 +284,8 @@ Clique 🖱️[**AQUI**](codigos_html/rag.html)
 **De lá pra cá (≈1 mês) tivemos:**
 
 + 🧾 **Reunião da equipe**: análise das legislações vigentes (LUOS, NA-101).
-+ 🧩 **Reunião da equipe**: estruturação do protótipo baseada nos modelos de formulários existentes.
+Sugestão aprimorada:
++ 🧩 **Reunião com a área técnica**: encontro com a equipe técnica da SEMAM para aprofundar o entendimento das questões inerentes ao edital.
 + 🎤 **Participação de membro da equipe em organizaçãode evento em área de interesse**:
   + **Nome do evento**: Seminário Ambiental de Saneamento Ambiental da Paraíba.
   + **Data**: 20 e 21 de outubro de 2025.
