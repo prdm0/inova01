@@ -261,15 +261,17 @@ Clique 🖱️[**AQUI**](codigos_html/rag.html)
 <br>
 
 :::: {.columns}
-::: {.column width="50%"}
+::: {.column width="45%"}
 - ⏳ **Redução de até 70%** no tempo de análise de processos
+<br>
 - 📑 **Padronização** das decisões → menos erros e retrabalho
+<br>
 - 🔍 **Transparência**: relatórios automáticos e auditáveis
 - ⚖️ **Segurança jurídica** para empreendedores e órgãos
 - 🌍 **Gestão ambiental proativa** baseada em dados
 :::
-::: {.column width="50%"}
-![](imgs/licenciamento_agil.png){width=85% fig-align="center"}
+::: {.column width="55%"}
+![](imgs/licenciamento_agil.png){width=90% fig-align="center"}
 :::
 ::::
 
