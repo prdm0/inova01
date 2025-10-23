@@ -276,7 +276,7 @@ Clique 🖱️[**AQUI**](codigos_html/rag.html)
 
 :::: {.columns}
 ::: {.column width="45%"}
-- ⏳ **Redução de até 70%** no tempo de análise de processos
+- ⏳ **Redução** no tempo de análise de processos
 <br>
 - 📑 **Padronização** das decisões → menos erros e retrabalho
 <br>
