@@ -190,7 +190,7 @@ Desafios do Licenciamento Ambiental:
 <br>
 
 - Desenvolver e implementar um **protótipo de sistema de IA** para automatizar:
-  - 📑 **Cálculos técnicos** do licenciamento
+  - 📑 **Cálculos técnicos** do licenciamento ambiental
   - ⚖️ **Análise de conformidade** com a LUOS e a NA-101
 
 <br>
