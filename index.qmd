@@ -1,7 +1,7 @@
 ---
 title: "Inteligência Artificial para Automatização de Cálculos no Licenciamento Ambiental"
 subtitle: "Tema da Proposta: Tema 6 (Licenciamento ambiental) do Edital N.º 007/2025, INOVATEC - JP"
-author: "<br>Apresentador: Prof. Dr. Eufrásio de Andrade Lima Neto<br>Coordenador: Prof. Dr. Pedro Rafael D. Marinho<br>Departamento de Estatística - UFPB<br><br>31/10/2025"
+author: "<br>Apresentador: Prof. Dr. Eufrásio de Andrade Lima Neto<br>Coordenador: Prof. Dr. Pedro Rafael D. Marinho<br>Universidade Federal da Paraíba - UFPB<br><br>31/10/2025"
 resources:
   - codigos_html/**
 format:
