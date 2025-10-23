@@ -82,11 +82,11 @@ Inovatec + UFPB
 
 #  {.title background-image="imgs/inovatec_ufpb.png" background-size="100% 100%"}
 
-#  {.title}
+<!-- #  {.title}
 
 ::: r-fit-text
 [Edital N.º 007/2025, INOVATEC - JP]{.flow}
-:::
+::: -->
 
 <!-- # Conhecendo o Departamento de Estatística da UFPB {.title} -->
 
