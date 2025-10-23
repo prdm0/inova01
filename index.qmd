@@ -195,7 +195,7 @@ Desafios do Licenciamento Ambiental:
 
 <br>
 
-- Garantir processos que são:
+- Garantia de processos:
   - 🚀 Ágeis
   - 🔒 Transparentes e Confiáveis
   - 🌱 Sustentáveis
