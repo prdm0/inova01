@@ -278,7 +278,7 @@ Clique 🖱️[**AQUI**](codigos_html/rag.html)
 ::: {.column width="45%"}
 - ⏳ **Redução** no tempo de análise de processos
 <br>
-- 📑 **Padronização** das decisões → menos erros e retrabalho
+- 📑 **Padronização** das decisões → minimizar erros e retrabalho
 <br>
 - 🔍 **Transparência**: relatórios automáticos e auditáveis
 - ⚖️ **Segurança jurídica** para empreendedores e órgãos
