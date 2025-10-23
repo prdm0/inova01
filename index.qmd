@@ -281,8 +281,8 @@ Clique 🖱️[**AQUI**](codigos_html/rag.html)
 - 📑 **Padronização** das decisões → minimizar erros e retrabalho
 <br>
 - 🔍 **Transparência**: relatórios automáticos e auditáveis
-- ⚖️ **Segurança jurídica** para empreendedores e órgãos
-- 🌍 **Gestão ambiental proativa** baseada em dados
+- ⚖️ **Segurança jurídica** para os solicitantes e órgãos governamentais
+- 🌍 **Gestão ambiental proativa** baseada em critérios técnicos
 :::
 ::: {.column width="55%"}
 ![](imgs/licenciamento_agil.png){width=90% fig-align="center"}
