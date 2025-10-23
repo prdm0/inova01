@@ -32,14 +32,14 @@
     "href": "index.html#objetivo-geral",
     "title": "Inteligência Artificial para Automatização de Cálculos no Licenciamento Ambiental",
     "section": "🎯 Objetivo Geral",
-    "text": "🎯 Objetivo Geral\n\n\nDesenvolver e implementar um protótipo de sistema de IA para automatizar:\n\n📑 Cálculos técnicos do licenciamento ambiental\n⚖️ Análise de conformidade com a LUOS e a NA-101\n\n\n\n\nGarantir processos que são:\n\n🚀 Ágeis\n🔒 Transparentes e Confiáveis\n🌱 Sustentáveis"
+    "text": "🎯 Objetivo Geral\n\n\nDesenvolver e implementar um protótipo de sistema de IA para automatizar:\n\n📑 Cálculos técnicos do licenciamento ambiental\n⚖️ Análise de conformidade com a LUOS e a NA-101\n\n\n\n\nGarantia de processos:\n\n🚀 Ágeis\n🔒 Transparentes e Confiáveis\n🌱 Sustentáveis"
   },
   {
     "objectID": "index.html#objetivos-específicos",
     "href": "index.html#objetivos-específicos",
     "title": "Inteligência Artificial para Automatização de Cálculos no Licenciamento Ambiental",
     "section": "📝 Objetivos Específicos",
-    "text": "📝 Objetivos Específicos\n\n\n📖 Estruturar regras da LUOS e NA-101 em bases de conhecimento computacionais\n🤖 Utilizar ferramentas de IA para treinar sobre os textos legais. Por exemplo, usar RAG (Retrieval-Augmented Generation - RAG). Pode ser feito usando um modelo de LLM já treinado como motor de raciocínio + os trechos recuperados dos documentos.\n🔌 Criar uma API para integração com outros sistemas.\n💻 Desenvolver um protótipo de aplicação web interativa (Shiny).\n✅ Validar a área técnica.\n📢 Disseminar resultados em artigos, workshops e repositório aberto.\n\n\n\\mathrm{RAG} =\n\\underbrace{\\text{LLM pré-treinado}}_{\\text{modelo de linguagem}}\n\\;+\\;\n\\underbrace{\\text{base vetorial dos textos legais}}_{\\text{documentos que regulamentam o problema}}"
+    "text": "📝 Objetivos Específicos\n \n\n\n🤖 Estruturar as regras da LUOS e da NA - 101 em modelos de inteligência artificial.\n\n\n\n\n🔌 Criar uma API para integração com outros sistemas.\n\n\n\n💻 Desenvolver um protótipo de aplicação web interativa (Shiny).\n\n\n\n✅ Validar a aplicação com a área técnica.\n\n\n\n📢 Disseminar os resultados em artigos, workshops e repositório aberto."
   },
   {
     "objectID": "index.html#section-1",

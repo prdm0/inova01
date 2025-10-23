@@ -32,22 +32,6 @@
     }
   </style>
   <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-04dd9f780107208fd33c3f89715f0ecf.css">
-  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
-  <script>document.addEventListener("DOMContentLoaded", function () {
- var mathElements = document.getElementsByClassName("math");
- var macros = [];
- for (var i = 0; i < mathElements.length; i++) {
-  var texText = mathElements[i].firstChild;
-  if (mathElements[i].tagName == "SPAN") {
-   katex.render(texText.data, mathElements[i], {
-    displayMode: mathElements[i].classList.contains('display'),
-    throwOnError: false,
-    macros: macros,
-    fleqn: false
-   });
-}}});
-  </script>
-  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -282,7 +266,7 @@ leaflet() |>
 </ul>
 <p><br></p>
 <ul>
-<li>Garantir processos que são:
+<li>Garantia de processos:
 <ul>
 <li>🚀 Ágeis</li>
 <li>🔒 Transparentes e Confiáveis</li>
@@ -292,21 +276,34 @@ leaflet() |>
 </section>
 <section id="objetivos-específicos" class="slide level2">
 <h2>📝 Objetivos Específicos</h2>
+<p><br> <br></p>
+<!-- - 📖 Estruturar regras da LUOS e NA-101 em **bases de conhecimento computacionais** -->
+<ul>
+<li>🤖 Estruturar as regras da LUOS e da NA - 101 em modelos de inteligência artificial.</li>
+</ul>
+<p><br></p>
+<!-- - 🤖 Utilizar ferramentas de IA para treinar sobre os textos legais. Por exemplo, usar RAG (*Retrieval-Augmented Generation* - RAG). Pode ser feito usando um modelo de LLM já treinado como motor de raciocínio + os trechos recuperados dos documentos. -->
+<ul>
+<li>🔌 Criar uma <strong>API</strong> para integração com outros sistemas.</li>
+</ul>
 <p><br></p>
 <ul>
-<li>📖 Estruturar regras da LUOS e NA-101 em <strong>bases de conhecimento computacionais</strong></li>
-<li>🤖 Utilizar ferramentas de IA para treinar sobre os textos legais. Por exemplo, usar RAG (<em>Retrieval-Augmented Generation</em> - RAG). Pode ser feito usando um modelo de LLM já treinado como motor de raciocínio + os trechos recuperados dos documentos.</li>
-<li>🔌 Criar uma <strong>API</strong> para integração com outros sistemas.</li>
 <li>💻 Desenvolver um protótipo de <strong>aplicação web interativa (Shiny)</strong>.</li>
-<li>✅ Validar a área técnica.</li>
-<li>📢 Disseminar resultados em artigos, workshops e repositório aberto.</li>
 </ul>
-<p><span class="math display">
+<p><br></p>
+<ul>
+<li>✅ Validar a aplicação com a área técnica.</li>
+</ul>
+<p><br></p>
+<ul>
+<li>📢 Disseminar os resultados em artigos, workshops e repositório aberto.</li>
+</ul>
+<!-- $$
 \mathrm{RAG} =
 \underbrace{\text{LLM pré-treinado}}_{\text{modelo de linguagem}}
 \;+\;
 \underbrace{\text{base vetorial dos textos legais}}_{\text{documentos que regulamentam o problema}}
-</span></p>
+$$ -->
 </section></section>
 <section>
 <section id="como-funcionará-o-protótipo" class="title-slide slide level1 title center" data-background-image="imgs/Clouds.jpg">
