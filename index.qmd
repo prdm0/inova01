@@ -149,7 +149,7 @@ Equipe multidisciplinar com experiência em projetos em diversos projetos de pes
 ::: {.column width="55%"}
 - 📑 **Burocracia** → excesso de papéis e etapas manuais.
 - 🕒 **Tempo** → processos que poderiam durar dias levam semanas ou meses.
-- 🧮 **Risco de erros** → cálculos manuais, suscetíveis a inconsistências.
+- 🧮 **Inconsistências** → cálculos manuais, suscetíveis a inconsistências.
 - ⚖️ **Subjetividade** → interpretações diferentes da lei entre técnicos.
 - 🔒 **Falta de transparência** → gera insegurança para órgãos e empreendedores.
 - 🌍 **Impacto direto**: atraso no desenvolvimento urbano e entraves à gestão ambiental.
@@ -159,7 +159,7 @@ Equipe multidisciplinar com experiência em projetos em diversos projetos de pes
 ![](imgs/licenciamento_dilema.png){width=90% fig-align="center"}
 <span style="font-size:0.8em; color:gray;"></span>
 Desafios do Licenciamento Ambiental:
-📑 Burocracia • 🕒 Tempo • 🧮 Risco de erros
+📑 Burocracia • 🕒 Tempo • 🧮 Inconsistências
 ⚖️ Subjetividade • 🔒 Falta de transparência • 🌍 Impacto no desenvolvimento.
 :::
 ::::

@@ -18,7 +18,7 @@
     "href": "index.html#problema",
     "title": "Inteligência Artificial para Automatização de Cálculos no Licenciamento Ambiental",
     "section": "⚠️ Problema",
-    "text": "⚠️ Problema\n\n\n\n\n📑 Burocracia → excesso de papéis e etapas manuais.\n🕒 Tempo → processos que poderiam durar dias levam semanas ou meses.\n🧮 Risco de erros → cálculos manuais, suscetíveis a inconsistências.\n⚖️ Subjetividade → interpretações diferentes da lei entre técnicos.\n🔒 Falta de transparência → gera insegurança para órgãos e empreendedores.\n🌍 Impacto direto: atraso no desenvolvimento urbano e entraves à gestão ambiental.\n\n\n  Desafios do Licenciamento Ambiental: 📑 Burocracia • 🕒 Tempo • 🧮 Risco de erros ⚖️ Subjetividade • 🔒 Falta de transparência • 🌍 Impacto no desenvolvimento."
+    "text": "⚠️ Problema\n\n\n\n\n📑 Burocracia → excesso de papéis e etapas manuais.\n🕒 Tempo → processos que poderiam durar dias levam semanas ou meses.\n🧮 Inconsistências → cálculos manuais, suscetíveis a inconsistências.\n⚖️ Subjetividade → interpretações diferentes da lei entre técnicos.\n🔒 Falta de transparência → gera insegurança para órgãos e empreendedores.\n🌍 Impacto direto: atraso no desenvolvimento urbano e entraves à gestão ambiental.\n\n\n  Desafios do Licenciamento Ambiental: 📑 Burocracia • 🕒 Tempo • 🧮 Inconsistências ⚖️ Subjetividade • 🔒 Falta de transparência • 🌍 Impacto no desenvolvimento."
   },
   {
     "objectID": "index.html#o-tema-já-é-debatido-em-outros-estados-brasileiros",
@@ -42,15 +42,15 @@
     "text": "📝 Objetivos Específicos\n\n\n📖 Estruturar regras da LUOS e NA-101 em bases de conhecimento computacionais\n🤖 Utilizar ferramentas de IA para treinar sobre os textos legais. Por exemplo, usar RAG (Retrieval-Augmented Generation - RAG). Pode ser feito usando um modelo de LLM já treinado como motor de raciocínio + os trechos recuperados dos documentos.\n🔌 Criar uma API para integração com outros sistemas.\n💻 Desenvolver um protótipo de aplicação web interativa (Shiny).\n✅ Validar a área técnica.\n📢 Disseminar resultados em artigos, workshops e repositório aberto.\n\n\n\\mathrm{RAG} =\n\\underbrace{\\text{LLM pré-treinado}}_{\\text{modelo de linguagem}}\n\\;+\\;\n\\underbrace{\\text{base vetorial dos textos legais}}_{\\text{documentos que regulamentam o problema}}"
   },
   {
-    "objectID": "index.html#section-2",
-    "href": "index.html#section-2",
+    "objectID": "index.html#section-1",
+    "href": "index.html#section-1",
     "title": "Inteligência Artificial para Automatização de Cálculos no Licenciamento Ambiental",
     "section": "🖥️🌐",
     "text": "🖥️🌐\n\n\nClique 🖱️AQUI"
   },
   {
-    "objectID": "index.html#section-3",
-    "href": "index.html#section-3",
+    "objectID": "index.html#section-2",
+    "href": "index.html#section-2",
     "title": "Inteligência Artificial para Automatização de Cálculos no Licenciamento Ambiental",
     "section": "🖥️🌐",
     "text": "🖥️🌐\n\n\nClique 🖱️AQUI"
