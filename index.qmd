@@ -9,8 +9,8 @@ format:
     theme: [default, style.scss]
     width: 1920
     height: 1080
-    logo: "https://www.ufpb.br/de/contents/imagens/logode.png"
-    footer: '<a href="https://www.ufpb.br/de">Departamento de Estatística da UFPB</a>'
+    logo: "https://www.ufpb.br/acessoainformacao/contents/imagens/logo/brasaooficial.png/@@images/c7c5e93b-c273-4503-a760-64c83b712fef.png"
+    footer: '<a href="https://www.ufpb.br/de">Universidade Federal da Paraíba - UFPB</a>'
     transition: fade
     background-transition: fade
     preview-links: true
@@ -294,8 +294,6 @@ Sugestão aprimorada:
   + **Tema:** Saneamento para Todos: desafios e oportunidades.
 + 🤝 **Reunião institucional**: encontro com o Secretário da SEMAM e equipe técnica para alinhamento e próximos passos.
 
-
-#  {.title background-image="gifs/aplausos.gif" background-size="100% 100%"}
-
+# Dúvidas? {.title background-image="imgs/Clouds.jpg"}
 
 # Obrigado!
