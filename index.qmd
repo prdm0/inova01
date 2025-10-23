@@ -63,9 +63,12 @@ lang: pt-BR
 
 <!-- ``` -->
 
+:::: {.columns}
+::: {.column width="55%"}
 ::: r-fit-text
 Parceria
 
+<br>
 <br>
 
 Inovatec + UFPB
@@ -79,8 +82,15 @@ Inovatec + UFPB
 
 🌍🌊💧🌲🪵🌱
 :::
+:::
+::: {.column width="45%"}
+<br>
+<br>
+![](imgs/inovatec_ufpb.png){width=90% fig-align="center"}
+:::
+::::
 
-#  {.title background-image="imgs/inovatec_ufpb.png" background-size="100% 100%"}
+<!-- #  {.title background-image="imgs/inovatec_ufpb.png" background-size="100% 100%"} -->
 
 <!-- #  {.title}
 
