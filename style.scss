@@ -69,6 +69,72 @@ $code-block-font-size: 1em;
   font-weight: 900;
 }
 
+.reveal .status-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-top: 1.1rem;
+}
+
+.reveal .status-card {
+  border: 1px solid rgba(81, 89, 102, 0.22);
+  border-top: 5px solid $theme-red;
+  border-radius: 14px;
+  background: linear-gradient(180deg, #ffffff 0%, #f7f5f1 100%);
+  box-shadow: 0 8px 22px rgba(81, 89, 102, 0.10);
+  min-height: 250px;
+  padding: 1rem 0.95rem;
+  font-size: 0.70em;
+  line-height: 1.25;
+}
+
+.reveal .status-card p {
+  margin: 0.45rem 0 0;
+}
+
+.reveal .status-badge {
+  display: inline-block;
+  border-radius: 999px;
+  background: rgba(92, 122, 92, 0.14);
+  color: #3A5C3A;
+  font-size: 0.58em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 0.18rem 0.55rem;
+  text-transform: uppercase;
+}
+
+.reveal .status-badge-test {
+  background: rgba(217, 113, 70, 0.15);
+  color: $theme-orange;
+}
+
+.reveal .muted-note {
+  display: inline-block;
+  border-left: 5px solid $theme-red;
+  background: rgba(144, 161, 184, 0.12);
+  color: $theme-grey;
+  font-size: 0.78em;
+  font-weight: 700;
+  line-height: 1.25;
+  padding: 0.75rem 1rem;
+}
+
+.reveal .screenshot-frame {
+  border: 1px solid rgba(81, 89, 102, 0.20);
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 12px 28px rgba(81, 89, 102, 0.16);
+  padding: 0.45rem;
+}
+
+.reveal .screenshot-frame img {
+  border-radius: 11px;
+  display: block;
+  max-height: 650px;
+  object-fit: contain;
+}
+
 @keyframes animate {
   0% {
     background-position: left 0px top 10px;

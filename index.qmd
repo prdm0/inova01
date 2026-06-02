@@ -1,7 +1,7 @@
 ---
 title: "Inteligência Artificial para Automatização de Cálculos no Licenciamento Ambiental"
-subtitle: "Tema da Proposta: Tema 6 (Licenciamento ambiental) do Edital N.º 007/2025, INOVATEC - JP"
-author: "<br>Apresentador: Prof. Dr. Eufrásio de Andrade Lima Neto<br>Coordenador: Prof. Dr. Pedro Rafael D. Marinho<br>Universidade Federal da Paraíba - UFPB<br><br>31/10/2025"
+subtitle: "Tema 6 (Licenciamento ambiental) do Edital N.º 007/2025, INOVATEC - JP"
+author: "<br>Apresentador: Prof. Dr. Joácio de Araujo Morais Junior<br>Coordenador: Prof. Dr. Pedro Rafael D. Marinho<br>Universidade Federal da Paraíba - UFPB<br><br>Junho de 2026"
 resources:
   - codigos_html/**
 format:
@@ -26,11 +26,6 @@ format:
     auto-animate: false
     code-line-numbers: true
     highlight-style: printing
-  pdf:
-    include-in-header:
-      - text: |
-            \usepackage{amsfonts}
-            \usepackage{amsmath}
 revealjs-plugins:
   - pointer
   - attribution
@@ -120,7 +115,7 @@ leaflet() |>
 
 
 ## Equipe
-Equipe multidisciplinar com experiência em projetos em diversos projetos de pesquisa.
+Equipe multidisciplinar com experiência em estatística, computação, ciência de dados e projetos aplicados.
 
 <iframe src="codigos_html/equipe.html" width="100%" height="800px"></iframe>
 
@@ -134,7 +129,7 @@ Equipe multidisciplinar com experiência em projetos em diversos projetos de pes
 - 🌱 **Demanda crescente**: aumento expressivo de solicitações de licenciamento em João Pessoa.
 - ⚖️ **Exigência legal**: cumprimento rigoroso da **LUOS (Lei 166/2024)** e da **NA-101/Sudema**.
 - 🔎 **Complexidade**: múltiplas etapas técnicas e jurídicas envolvidas.
-- 💡 **Oportunidade**: uso de tecnologia para tornar o processo **mais ágil, preciso e transparente**.
+- 💡 **Oportunidade**: uso de tecnologia para tornar os cálculos **mais padronizados, auditáveis e rastreáveis**.
 
 <br>
 
@@ -158,19 +153,19 @@ Equipe multidisciplinar com experiência em projetos em diversos projetos de pes
 :::: {.columns}
 ::: {.column width="55%"}
 - 📑 **Burocracia** → excesso de papéis e etapas manuais.
-- 🕒 **Tempo** → processos que poderiam durar dias levam semanas ou meses.
+- 🕒 **Tempo** → processos podem demandar semanas ou meses, conforme a complexidade.
 - 🧮 **Inconsistências** → cálculos manuais, suscetíveis a inconsistências.
-- ⚖️ **Subjetividade** → interpretações diferentes da lei entre técnicos.
+- ⚖️ **Interpretação técnica** → casos limítrofes exigem critérios consistentes e documentados.
 - 🔒 **Falta de transparência** → gera insegurança para órgãos e empreendedores.
-- 🌍 **Impacto direto**: atraso no desenvolvimento urbano e entraves à gestão ambiental.
+- 🌍 **Impacto direto**: menor previsibilidade para órgãos públicos, técnicos e empreendedores.
 :::
 
 ::: {.column width="45%"}
 ![](imgs/licenciamento_dilema.png){width=90% fig-align="center"}
 <span style="font-size:0.8em; color:gray;"></span>
-Desafios do Licenciamento Ambiental:
-📑 Burocracia • 🕒 Tempo • 🧮 Inconsistências
-⚖️ Subjetividade • 🔒 Falta de transparência • 🌍 Impacto no desenvolvimento.
+Pontos críticos do licenciamento:
+entrada manual • tempo de análise • consistência dos cálculos
+rastreabilidade • previsibilidade para órgãos e empreendedores.
 :::
 ::::
 
@@ -181,13 +176,13 @@ Desafios do Licenciamento Ambiental:
 
 :::: {.columns}
 ::: {.column width="55%"}
-+ **Minas-Gerais**: [https://meioambiente.mg.gov.br/w/minas-gerais-adota-inteligencia-artificial-para-agilizar-e-modernizar-o-licenciamento-ambiental](https://meioambiente.mg.gov.br/w/minas-gerais-adota-inteligencia-artificial-para-agilizar-e-modernizar-o-licenciamento-ambiental)
++ **Minas Gerais**: [licenciamento ambiental e IA](https://meioambiente.mg.gov.br/w/minas-gerais-adota-inteligencia-artificial-para-agilizar-e-modernizar-o-licenciamento-ambiental).
 
-+ **Santa-Catarina**: [https://portal.crea-sc.org.br/inteligencia-artificial-no-licenciamento-ambiental-seminario-da-acesa-aconteceu-na-sede-do-crea-sc/](https://portal.crea-sc.org.br/inteligencia-artificial-no-licenciamento-ambiental-seminario-da-acesa-aconteceu-na-sede-do-crea-sc/).
++ **Santa Catarina**: [seminário técnico sobre IA no licenciamento](https://portal.crea-sc.org.br/inteligencia-artificial-no-licenciamento-ambiental-seminario-da-acesa-aconteceu-na-sede-do-crea-sc/).
 
-+ **Amazonas**: [https://www.ipaam.am.gov.br/tecnologia-facilita-atividades-do-ipaam-e-moderniza-gestao-ambiental-no-amazonas/](https://www.ipaam.am.gov.br/tecnologia-facilita-atividades-do-ipaam-e-moderniza-gestao-ambiental-no-amazonas/).
++ **Amazonas**: [modernização da gestão ambiental](https://www.ipaam.am.gov.br/tecnologia-facilita-atividades-do-ipaam-e-moderniza-gestao-ambiental-no-amazonas/).
 
-+ **Goiás**: [https://portal.al.go.leg.br/noticias-dos-gabinetes/153454/deputado-jamil-calife-sugere-uso-de-inteligencia-artificial-para-agilizar-licenciamento-ambiental-em-goias](https://portal.al.go.leg.br/noticias-dos-gabinetes/153454/deputado-jamil-calife-sugere-uso-de-inteligencia-artificial-para-agilizar-licenciamento-ambiental-em-goias).
++ **Goiás**: [debate sobre IA no licenciamento](https://portal.al.go.leg.br/noticias-dos-gabinetes/153454/deputado-jamil-calife-sugere-uso-de-inteligencia-artificial-para-agilizar-licenciamento-ambiental-em-goias).
 :::
 ::: {.column width="45%"}
 ![](imgs/licenciamento_ambiental.png){width=85% fig-align="center"}
@@ -199,41 +194,39 @@ Desafios do Licenciamento Ambiental:
 
 <br>
 
-- Desenvolver e implementar um **protótipo de sistema de IA** para automatizar:
+- Desenvolver, implementar e testar um **protótipo de sistema com apoio de IA** para apoiar:
   - 📑 **Cálculos técnicos** do licenciamento ambiental
-  - ⚖️ **Análise de conformidade** com a LUOS e a NA-101
+  - ⚖️ **Verificação de atendimento às regras** da LUOS e da NA-101
 
 <br>
 
-- Garantia de processos:
-  - 🚀 Ágeis
-  - 🔒 Transparentes e Confiáveis
-  - 🌱 Sustentáveis
+- Para dar segurança ao uso, o protótipo já separa:
+  - 🧮 cálculos normativos no módulo de cálculo em R
+  - 🔎 consulta às normas e apoio à redação pelo modelo de linguagem
+  - 📄 relatório técnico em PDF montado com Quarto
 
 ## 📝 Objetivos Específicos
 
 <br>
 <br>
 
-<!-- - 📖 Estruturar regras da LUOS e NA-101 em **bases de conhecimento computacionais** -->
- - 🤖 Estruturar as regras da LUOS e da NA - 101 em modelos de inteligência artificial.
+- ✅ Estruturar as regras da LUOS e da NA-101 em bases organizadas para consulta pelo sistema.
 
  <br>
 
-<!-- - 🤖 Utilizar ferramentas de IA para treinar sobre os textos legais. Por exemplo, usar RAG (*Retrieval-Augmented Generation* - RAG). Pode ser feito usando um modelo de LLM já treinado como motor de raciocínio + os trechos recuperados dos documentos. -->
-- 🔌 Criar uma **API** para integração com outros sistemas.
+- ✅ Criar serviços de conexão entre a interface, o cálculo e a geração do laudo.
 
 <br>
 
-- 💻 Desenvolver um protótipo de **aplicação web interativa (Shiny)**.
+- ✅ Desenvolver uma aplicação web em **Shiny** com formulário guiado em etapas.
 
 <br>
 
-- ✅ Validar a aplicação com a área técnica.
+- 🧪 Validar a aplicação com a área técnica e com casos reais.
 
 <br>
 
-- 📢 Disseminar os resultados em artigos, workshops e repositório aberto.
+- 📢 Preparar documentação, demonstrações e materiais para divulgação técnica.
 
 <!-- $$
 \mathrm{RAG} =
@@ -242,7 +235,137 @@ Desafios do Licenciamento Ambiental:
 \underbrace{\text{base vetorial dos textos legais}}_{\text{documentos que regulamentam o problema}}
 $$ -->
 
-# Como funcionará o protótipo? {.title background-image="imgs/Clouds.jpg"}
+## O que já foi construído
+
+<br>
+
+::: {.status-grid}
+::: {.status-card}
+[Implementado]{.status-badge}
+
+**Tela web em Shiny**
+
+Formulário guiado para identificação, atividade, porte, localização e revisão.
+:::
+
+::: {.status-card}
+[Implementado]{.status-badge}
+
+**Módulo de cálculo em R**
+
+Serviço em R que calcula porte, custos e registra a regra normativa usada.
+:::
+
+::: {.status-card}
+[Implementado]{.status-badge}
+
+**Serviço coordenador em Python**
+
+Organiza leitura dos dados, consulta às normas, cálculo e redação do laudo.
+:::
+
+::: {.status-card}
+[Em teste]{.status-badge .status-badge-test}
+
+**Consulta assistida às normas**
+
+Usa textos estruturados da LUOS e da NA-101 para fundamentar respostas.
+:::
+
+::: {.status-card}
+[Implementado]{.status-badge}
+
+**Relatório em PDF**
+
+Modelo em Quarto que monta laudo técnico com dados rastreáveis.
+:::
+:::
+
+## Como as partes do sistema se conectam
+
+<br>
+
+:::: {.columns}
+::: {.column width="35%"}
+
+- **Interface**: coleta dados e guia o técnico pelo fluxo.
+- **Serviço coordenador**: liga leitura dos dados, consulta às normas, cálculo e redação.
+- **Módulo de cálculo em R**: executa os cálculos normativos.
+- **Quarto**: monta o laudo técnico em PDF.
+- **Ambiente de teste**: mantém os serviços funcionando juntos.
+
+<br>
+
+<span class="muted-note">A IA apoia a consulta e a redação. Os números são calculados pelo módulo em R.</span>
+
+:::
+::: {.column width="65%"}
+![](imgs/diagrama_fluxo_sistema.png){width=100% fig-align="center"}
+:::
+::::
+
+## Interface web em operação
+
+<br>
+
+:::: {.columns}
+::: {.column width="48%"}
+
+- Tela inicial com identidade do SIS Ambiental.
+- Mapa de João Pessoa integrado à entrada do processo.
+- Indicadores mostram se cálculo e análise estão disponíveis.
+- Preenchimento por campos definidos, reduzindo texto livre.
+- Arquivos PDF/TXT podem ajudar no preenchimento inicial.
+
+:::
+::: {.column width="52%"}
+::: {.screenshot-frame}
+![](imgs/sis_ambiental_landing_hero.png){width=100% fig-align="center"}
+:::
+:::
+::::
+
+## Preenchimento guiado e cálculo conferível
+
+<br>
+
+:::: {.columns}
+::: {.column width="52%"}
+::: {.screenshot-frame}
+![](imgs/sis_ambiental_porte_recorte.png){width=100% fig-align="center"}
+:::
+:::
+::: {.column width="48%"}
+
+- Escolha da atividade em níveis, conforme a NA-101.
+- O formulário muda conforme a atividade escolhida.
+- O módulo em R calcula o porte durante o preenchimento.
+- A IA não faz os cálculos numéricos.
+- Resultado mostra código da atividade, tipo de licença e artigo usado.
+
+:::
+::::
+
+## Relatório técnico e próximas validações
+
+<br>
+
+:::: {.columns}
+::: {.column width="45%"}
+
+- O sistema já gera um laudo em PDF usando Quarto.
+- O relatório reúne identificação, localização, enquadramento e resultado.
+- O laudo inclui as regras usadas como fundamento técnico.
+- A próxima etapa é testar com casos reais da área técnica.
+- Métricas de prazo e ganho operacional só devem ser afirmadas após validação.
+
+:::
+::: {.column width="55%"}
+![](imgs/fluxo_completo_aplicacao.png){width=85% fig-align="center"}
+:::
+::::
+
+# Como funciona o sistema hoje? {.title background-image="imgs/Clouds.jpg"}
 
 ## 🖥️🌐
 
@@ -257,7 +380,7 @@ Clique 🖱️[**AQUI**](codigos_html/animacao_sistema.html)
 Clique 🖱️[**AQUI**](codigos_html/rag.html)
 
 
-## 📅 Cronograma de Atividades (12 meses)
+## 📅 Situação das atividades em junho de 2026
 
 <br>
 
@@ -265,41 +388,35 @@ Clique 🖱️[**AQUI**](codigos_html/rag.html)
 
 <br>
 
-| Atividade                                      | 1-2 | 3-4 | 5-6 | 7-8 | 9-10 | 11-12 |
-|------------------------------------------------|:---:|:---:|:---:|:---:|:----:|:-----:|
-| Leitura técnica da LUOS e NA-101               | ✅  | ✅  |     |     |      |       |
-| Processamento dos textos das resoluções (LUOS/NA-101) | ✅  | ✅  |     |     |      |       |
-| Pré-processamento de dados                     |     | ✅  | ✅  |     |      |       |
-| Integração de LLMs                             |     |     | ✅  | ✅  |      |       |
-| Criação da API + protótipo da aplicação Web    |     |     |     | ✅  | ✅   |       |
-| Testes do aplicativo (integração e usabilidade)|     |     |     |     | ✅   | ✅    |
-| Validação com dados reais            |     |     |     |     | ✅   | ✅    |
-| Relatórios automáticos + documentação técnica  |     |     |     |     |     | ✅    |
-| Divulgação científica e workshops              |     |     |     |     |     | ✅    |
+| Frente | Situação atual | Mensagem para apresentação |
+|---|---|---|
+| LUOS e NA-101 | Organizadas | Regras prontas para consulta e cálculo |
+| Cálculo em R | Implementado e em teste | O módulo faz os números, sem depender da IA |
+| Coordenação do fluxo | Implementada | Liga dados, normas, cálculo e laudo |
+| Tela web | Em operação | Formulário guiado com mapa |
+| Laudo e validação | PDF implementado; validação em andamento | Testes com casos reais continuam |
 
-<span style="font-size:0.8em; color:gray;">✅ = meses de execução da atividade</span>
-
-## 🚀 Resultados Esperados
+## Resultados em validação
 
 <br>
 <br>
 
 :::: {.columns}
 ::: {.column width="45%"}
-- ⏳ **Redução** no tempo de análise de processos
+- 🧮 **Cálculos conferíveis** com artigo, fórmula e valor calculado
 <br>
-- 📑 **Padronização** das decisões → minimizar erros e retrabalho
+- 📑 **Entrada padronizada** por formulário guiado, com escolha da atividade por níveis
 <br>
-- 🔍 **Transparência**: relatórios automáticos e auditáveis
-- ⚖️ **Segurança jurídica** para os solicitantes e órgãos governamentais
-- 🌍 **Gestão ambiental proativa** baseada em critérios técnicos
+- 🔍 **Transparência técnica** por relatórios que mostram a origem das informações
+- ⚖️ **Validação jurídica e técnica** ainda depende da área responsável
+- 🌍 **Uso institucional** deve ser consolidado após testes com casos reais
 :::
 ::: {.column width="55%"}
 ![](imgs/licenciamento_agil.png){width=90% fig-align="center"}
 :::
 ::::
 
-## Ações realizadas 🚀
+## Ações realizadas até junho de 2026
 
 <br>
 
@@ -307,15 +424,13 @@ Clique 🖱️[**AQUI**](codigos_html/rag.html)
 
 <br>
 
-**Desde então (≈1 mês), ocorreram:**
+**Principais avanços técnicos:**
 
-+ 🧾 **Reunião da equipe**: análise das legislações vigentes (LUOS, NA-101).
-+ 🤝 **Reunião institucional**: encontro com o Secretário da SEMAM e equipe técnica para alinhamento e próximos passos.
-+ 🧩 **Reunião com a área técnica**: encontro com a equipe técnica da SEMAM para aprofundar o entendimento das questões inerentes ao edital.
-+ 🎤 **Participação de membro da equipe em organizaçãode evento em área de interesse**:
-  + **Nome do evento**: Seminário Ambiental de Saneamento Ambiental da Paraíba.
-  + **Data**: 20 e 21 de outubro de 2025.
-  + **Tema:** Saneamento para Todos: desafios e oportunidades.
++ 🧾 **Base normativa organizada**: LUOS e NA-101 preparadas para consulta e cálculo.
++ 🧮 **Módulo de cálculo em R implementado**: regras fixas para enquadramento e conferência.
++ 🔌 **Fluxo integrado em operação**: liga cálculo, consulta às normas e laudo em PDF.
++ 💻 **Tela web em Shiny criada**: formulário guiado com mapa, atividade, porte, localização e revisão.
++ 🧪 **Validação em andamento**: próximos testes dependem da área técnica e de casos reais.
 
 # Dúvidas? {.title background-image="imgs/Clouds.jpg"}
 
