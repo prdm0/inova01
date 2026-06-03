@@ -434,4 +434,26 @@ Clique 🖱️[**AQUI**](codigos_html/rag.html)
 
 # Dúvidas? {.title background-image="imgs/Clouds.jpg"}
 
-# Obrigado!
+## Obrigado!
+
+<br>
+
+:::: {.columns}
+::: {.column width="45%"}
+
+Agradecemos à **SECITEC / Prefeitura de João Pessoa** e ao
+**INOVATEC - JP** pelo apoio institucional ao desenvolvimento deste projeto.
+
+<br>
+
+Também agradecemos à equipe técnica envolvida nas etapas de alinhamento,
+teste e validação do protótipo.
+
+:::
+::: {.column width="55%"}
+<br>
+<br>
+
+![](imgs/LOGO_SECITEC.png){width=90% fig-align="center"}
+:::
+::::

@@ -159,5 +159,12 @@
     "title": "Inteligência Artificial para Automatização de Cálculos no Licenciamento Ambiental",
     "section": "Preenchimento guiado e cálculo conferível",
     "text": "Preenchimento guiado e cálculo conferível\n\n\n\n\n\n\n\n\n\n\n\n\nEscolha da atividade em níveis, conforme a NA-101.\nO formulário muda conforme a atividade escolhida.\nO módulo em R calcula o porte durante o preenchimento.\nA IA não faz os cálculos numéricos.\nResultado mostra código da atividade, tipo de licença e artigo usado."
+  },
+  {
+    "objectID": "index.html#obrigado",
+    "href": "index.html#obrigado",
+    "title": "Inteligência Artificial para Automatização de Cálculos no Licenciamento Ambiental",
+    "section": "Obrigado!",
+    "text": "Obrigado!\n\n\n\nAgradecemos à SECITEC / Prefeitura de João Pessoa e ao INOVATEC - JP pelo apoio institucional ao desenvolvimento deste projeto.\n\nTambém agradecemos à equipe técnica envolvida nas etapas de alinhamento, teste e validação do protótipo."
   }
 ]
